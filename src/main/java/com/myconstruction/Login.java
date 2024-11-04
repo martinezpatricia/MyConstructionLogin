@@ -13,7 +13,7 @@ public class Login {
             stmt.setString(1, username);
             stmt.setString(2, password);
             ResultSet rs = stmt.executeQuery();
-            return rs.next(); // Si hay un resultado, el usuario es válido
+            return rs.next(); // Si hay un resultado, el usuario es válido.
         } catch (SQLException e) {
             e.printStackTrace();
         }
