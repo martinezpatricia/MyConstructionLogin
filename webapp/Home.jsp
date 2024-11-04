@@ -5,6 +5,6 @@
 </head>
 <body>
     <h2>Bienvenido, <%= session.getAttribute("username") %>!</h2>
-    <a href="logout.jsp">Cerrar sesión</a>
+    <a href="logout.jsp">Cerrar sesion</a>
 </body>
 </html>
