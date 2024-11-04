@@ -12,7 +12,7 @@ public class UserService {
 	    }
 
 	    public boolean authenticate(String username, String password) {
-	        // Verifica si el usuario existe y si la contraseña es correcta
+	        // Verifica si el usuario existe y si la contraseña es correcta.
 	        return users.containsKey(username) && users.get(username).equals(password);
 	    }
 }
