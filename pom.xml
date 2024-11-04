@@ -43,4 +43,14 @@
             <version>42.2.20</version>
         </dependency>
   </dependencies>
+  <distributionManagement>
+    <repository>
+      <id>libs-release</id>
+      <url>http://127.0.0.1:8082/artifactory/libs-release-local</url>
+    </repository>
+    <snapshotRepository>
+      <id>libs-snapshot</id>
+      <url>http://127.0.0.1:8082/artifactory/libs-snapshot-local</url>
+    </snapshotRepository>
+  </distributionManagement>
 </project>
